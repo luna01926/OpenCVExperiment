@@ -1,3 +1,7 @@
+/*
+* ƒŒƒ|[ƒg‰Û‘è3
+*/
+
 #include <opencv/cv.h>
 #include <opencv/highgui.h>
 

@@ -19,22 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="lena.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Convert2Gray.cpp" />
-    <ClCompile Include="sample.cpp" />
-    <ClCompile Include="WindowNameChage.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\README.md" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{677c3860-c31c-4c43-a46d-005a7b6bf36e}</ProjectGuid>
+    <ProjectGuid>{15e33525-67f5-4d6d-bf56-ef79266fef24}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>OpenCVExperiment</RootNamespace>
+    <RootNamespace>SATORI</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>OpenCVExperiment_task</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

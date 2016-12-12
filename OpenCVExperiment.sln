@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVExperiment", "OpenCVExperiment\OpenCVExperiment.vcxproj", "{677C3860-C31C-4C43-A46D-005A7B6BF36E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVExperiment_task", "OpenCVExperiment\OpenCVExperiment.vcxproj", "{677C3860-C31C-4C43-A46D-005A7B6BF36E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SATORI", "SATORI\SATORI.vcxproj", "{15E33525-67F5-4D6D-BF56-EF79266FEF24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{677C3860-C31C-4C43-A46D-005A7B6BF36E}.Release|x64.Build.0 = Release|x64
 		{677C3860-C31C-4C43-A46D-005A7B6BF36E}.Release|x86.ActiveCfg = Release|Win32
 		{677C3860-C31C-4C43-A46D-005A7B6BF36E}.Release|x86.Build.0 = Release|Win32
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Debug|x64.ActiveCfg = Debug|x64
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Debug|x64.Build.0 = Debug|x64
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Debug|x86.ActiveCfg = Debug|Win32
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Debug|x86.Build.0 = Debug|Win32
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Release|x64.ActiveCfg = Release|x64
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Release|x64.Build.0 = Release|x64
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Release|x86.ActiveCfg = Release|Win32
+		{15E33525-67F5-4D6D-BF56-EF79266FEF24}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
