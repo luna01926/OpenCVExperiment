@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="lena.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Convert2Gray.cpp" />
+    <ClCompile Include="sample.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{677c3860-c31c-4c43-a46d-005a7b6bf36e}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -157,9 +164,6 @@
       <AdditionalDependencies>opencv_calib3d245.lib;opencv_calib3d245d.lib;opencv_contrib245.lib;opencv_contrib245d.lib;opencv_core245.lib;opencv_core245d.lib;opencv_features2d245.lib;opencv_features2d245d.lib;opencv_flann245.lib;opencv_flann245d.lib;opencv_gpu245.lib;opencv_gpu245d.lib;opencv_haartraining_engine.lib;opencv_haartraining_engined.lib;opencv_highgui245.lib;opencv_highgui245d.lib;opencv_imgproc245.lib;opencv_imgproc245d.lib;opencv_legacy245.lib;opencv_legacy245d.lib;opencv_ml245.lib;opencv_ml245d.lib;opencv_nonfree245.lib;opencv_nonfree245d.lib;opencv_objdetect245.lib;opencv_objdetect245d.lib;opencv_photo245.lib;opencv_photo245d.lib;opencv_stitching245.lib;opencv_stitching245d.lib;opencv_superres245.lib;opencv_superres245d.lib;opencv_ts245.lib;opencv_ts245d.lib;opencv_video245.lib;opencv_video245d.lib;opencv_videostab245.lib;opencv_videostab245d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
