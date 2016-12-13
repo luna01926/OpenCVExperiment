@@ -22,8 +22,15 @@
     <Image Include="lena.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="binary.cpp" />
+    <ClCompile Include="bmpsave.cpp" />
     <ClCompile Include="Convert2Gray.cpp" />
+    <ClCompile Include="fizzbuzz.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OtherProcessing.cpp" />
     <ClCompile Include="sample.cpp" />
+    <ClCompile Include="WebCamera.cpp" />
+    <ClCompile Include="WebCameraBin.cpp" />
     <ClCompile Include="WindowNameChage.cpp" />
   </ItemGroup>
   <ItemGroup>
